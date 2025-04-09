@@ -13,7 +13,7 @@ dotenv.config();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://luxridez-1.onrender.com",
+    "https://lux-ridez.vercel.app",
       
   ],
   methods: "GET,POST,PUT,DELETE",
