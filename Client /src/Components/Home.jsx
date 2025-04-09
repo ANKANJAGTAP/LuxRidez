@@ -1,7 +1,5 @@
-// App.jsx
 import React from "react";
 
-// Navbar Component
 const Navbar = () => {
   return (
     <nav className="bg-white shadow">
@@ -119,8 +117,6 @@ const FeaturedCars = () => {
     </section>
   );
 };
-
-// About Section Component
 const AboutSection = () => {
   return (
     <section className="py-12">

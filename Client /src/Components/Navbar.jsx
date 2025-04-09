@@ -16,15 +16,12 @@ const Navbar = () => {
     <nav className="bg-white shadow-md fixed top-0 left-0 w-full z-50">
       <div className="relative max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         
-        {/* Logo on the left */}
         <NavLink
           to="/"
           className="text-3xl font-extrabold text-blue-600 tracking-tight"
         >
           LuxRidez
         </NavLink>
-
-        {/* Centered Navigation Links */}
         <div className="hidden md:flex space-x-8 text-lg absolute left-1/2 transform -translate-x-1/2">
           {navItems.map((item) => (
             <NavLink
@@ -42,16 +39,12 @@ const Navbar = () => {
             </NavLink>
           ))}
         </div>
-
-        {/* Sign Up button on the right */}
         <NavLink
           to="/signup"
           className="hidden md:inline-block ml-4 px-5 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition duration-200"
         >
           Sign Up
         </NavLink>
-
-        {/* Mobile Menu Toggle */}
         <button
           className="md:hidden text-gray-700"
           onClick={() => setIsOpen(!isOpen)}
@@ -60,7 +53,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Dropdown Menu */}
       {isOpen && (
         <div className="md:hidden bg-white shadow-md px-6 pt-2 pb-4 space-y-4">
           {navItems.map((item) => (
