@@ -35,7 +35,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="py-20 px-4 md:px-8 bg-gray-950 text-white">
+    <section className="py-20 px-4 md:px-8  text-white">
       <ToastContainer position="top-center" autoClose={3000} theme="dark" />
       
       <div className="max-w-5xl mx-auto text-center mb-12">
