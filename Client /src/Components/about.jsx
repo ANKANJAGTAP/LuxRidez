@@ -32,16 +32,18 @@ const AboutSection = () => {
 
     
         <div className="bg-gray-800 border border-gray-700 rounded-3xl p-8 md:p-10 shadow-2xl text-center space-y-4 hover:shadow-indigo-600/20 transition-all duration-300">
-          <div className="flex justify-center mb-3">
-            <div className="bg-indigo-600 p-3 rounded-full">
-              <FaUser size={28} />
-            </div>
-          </div>
-          <h4 className="text-2xl font-bold text-indigo-400">Ankan Jagtap</h4>
-          <p className="text-gray-300 text-lg max-w-xl mx-auto">
-            I'm a passionate Computer Science student and developer behind LuxRidez. I love crafting stunning web apps and simplifying the way people experience tech — especially in automotive and smart solutions.
-          </p>
-        </div>
+  <div className="flex justify-center mb-3">
+    <div className="bg-indigo-600 p-3 rounded-full">
+      <FaUser size={28} />
+    </div>
+  </div>
+  <h4 className="text-2xl font-bold text-indigo-400">Ankan Jagtap</h4>
+  <p className="text-gray-300 text-base sm:text-lg max-w-full sm:max-w-2xl mx-0 sm:mx-auto px-2 sm:px-0">
+    I’m a second-year Computer Science Engineering student at Walchand College of Engineering, Sangli (Batch of 2027). Passionate about technology, I enjoy building full-stack web applications using React, Node.js, MongoDB, and Tailwind CSS. I’ve previously interned at BuildZeroClub where I worked independently on both frontend and backend using Next.js, Supabase, and React.
+    <br /><br />
+    I’m actively exploring open-source through GSoC 2025 and have experience with deployment platforms like Vercel. I’m also enthusiastic about AI, Linux, Docker, and system-level tools like Go. Apart from coding, I’m a state-level badminton player and a music lover who enjoys reading books and exploring new ideas.
+  </p>
+</div>
       </div>
     </section>
   );
